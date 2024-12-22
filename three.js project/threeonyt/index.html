@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    img {
+      opacity: 0;
+    }
+    .app canvas {
+      position: fixed;
+      z-index: 0;
+      top: 0;
+      left: 0;
+    }
+  </style>
+  
+</head>
+<body>
+    <div class="app w-full h-screen flex text-white font-['gilroy'] bg-zinc-900">
+      <div class="relative w-1/2 h-screen canvas">
+        <a class="fixed text-2xl opacity-60 font-base top-10 right-10" href="">close menu<i class="ri-close-line"></i></a>
+        <div class="images w-[25vw] h-[32vw] absolute top-1/4 left-1/2 -translate-x-1/2">
+          <img class="absolute object-cover w-full h-full" src="/images/first.jpg" alt="">
+          <img class="absolute object-cover w-full h-full" src="/images/second.jpg" alt="">
+          <img class="absolute object-cover w-full h-full" src="/images/third.jpg" alt="">
+          <img class="absolute object-cover w-full h-full" src="/images/fourth.jpg" alt="">
+        </div>
+      </div>
+    <div class="flex items-center justify-center w-1/2 h-screen">
+    <div class="flex flex-col gap-10 links">
+    <a class="block text-6xl tracking-tighter lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100" href=""><small class="text-xl tracking-normal">01.</small>Bello spettacolo</a>
+    <a class="block text-6xl tracking-tighter lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100" href=""><small class="text-xl tracking-normal">02.</small>Dolce far niente</a>
+    <a class="block text-6xl tracking-tighter lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100" href=""><small class="text-xl tracking-normal">03.</small>Sofisticado</a>
+    <a class="block text-6xl tracking-tighter lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100" href=""><small class="text-xl tracking-normal">04.</small>Magnifico</a>
+    </div>
+  </div>
+</div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "cSpell.words": [
+        "elems",
+        "gola",
+        "Mediu",
+        "Nenu",
+        "Neue",
+        "nowrap"
+    ],
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.showOnStatusbar": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "css.autoValidation": "Always",
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:front-end}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}
